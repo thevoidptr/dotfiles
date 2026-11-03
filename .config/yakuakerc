@@ -2,9 +2,6 @@
 Skin=breeze-minimal
 SkinInstalledWithKns=true
 
-[Behavior]
-OpenAfterStart=true
-
 [Desktop Entry]
 DefaultProfile=profile.profile
 
