@@ -33,18 +33,14 @@ source "$HOME/.zsh/sd-card.zsh"
 # ------------------------------------------------------------------------------
 # Aliases
 # ------------------------------------------------------------------------------
-alias sc='systemctl'
-alias sct='systemctl-tui'
 alias full-system-upgrade='sudo pacman -Syu && paru && flatpak update'
 alias restart-plasma='systemctl --user restart plasma-plasmashell.service'
 alias nosleep='systemd-inhibit --what=sleep:idle --who="me" --why="manual block" --mode=block sleep infinity &'
 alias nosleep-off='kill $!'
 alias git-tree='tree -a -I ".git"'
 alias ls='eza --icons always'
-alias sp='spotify_player'
 alias ff='fastfetch'
 alias cl='clear'
-#alias ls='nnn -de'
 
 # ------------------------------------------------------------------------------
 # Startup
